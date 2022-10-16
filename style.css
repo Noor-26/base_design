@@ -1,0 +1,43 @@
+.accordion-button{
+  background-color:   #F4F5FA;
+}
+.dropdown-toggle::after {
+    display:none;
+} 
+
+.circular-progress {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.circular-progress:before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.value-container {
+  position: relative;
+ 
+  font-size: 30px;
+  color: #231c3d;
+}
+
+.icon_1{
+  width: 20px ;
+  height: 20px;
+  background-color: #D3BBFE;
+  border-radius: 5px;
+
+}
+.other_icon{
+  width: 20px ;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #EAF5EA;
+}
